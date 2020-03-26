@@ -1,0 +1,120 @@
+.bubbly-button {
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    background-color: darkblue;
+    border: none;
+    padding: 10px 8px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px black, 0 0 25px green, 0 0 5px green;
+    font-family: Purisa;
+    cursor: pointer;
+    border-inline-end-width: 4em;
+}
+
+.bubbly-button:hover {
+    background-color: transparent;
+    font-size: 40px;
+    left: 35%;
+    text-shadow: 1px 1px 4px black, 0 0 25px green, 0 0 5px green;
+}
+
+.menu {
+    position: absolute;
+    top: 5%;
+    left: 97%;
+}
+
+.list {
+    height: 40px;
+}
+
+#service {
+    text-align: center;
+    background-color: #ddd;
+}
+
+.service {
+    margin-top: 10px;
+}
+
+#serviceone {
+    background-color: red;
+    color: white;
+    margin-left: 2em;
+    text-align: center;
+}
+
+#servicetwo {
+    background-color: blue;
+    margin-left: 2em;
+    color: white;
+    text-align: center;
+}
+
+#servicethree {
+    background-color: green;
+    margin-left: 2em;
+    color: white;
+    text-align: center;
+}
+
+#parque {
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    color: white;
+    font-size: 60px;
+    border: 8px;
+    border-color: black;
+    text-shadow: 1px 1px 4px black, 0 0 25px green, 0 0 5px green;
+}
+
+#parquesub {
+    position: absolute;
+    left: 7%;
+    top: 24%;
+    color: white;
+    text-shadow: 1px 1px 4px black, 0 0 25px green, 0 0 5px green;
+}
+
+.logo {
+    position: absolute;
+    left: 2%;
+    width: 50px;
+    top: 20%;
+}
+
+#piscina {
+    border-radius: 20px;
+    border-color: white;
+}
+
+#link {
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#logo {
+    position: absolute;
+    left: 80%;
+    top: 5%;
+}
+
+.contac {
+    margin-top: 30px;
+    width: 400px;
+}
+
+#novedades {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+.noticiasTitu {
+    text-align: center;
+}
