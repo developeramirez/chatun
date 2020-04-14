@@ -1,23 +1,22 @@
 .bubbly-button {
     position: absolute;
+    top: 90%;
     left: 40%;
-    top: 85%;
-    background-color: darkblue;
-    border: none;
-    padding: 10px 8px;
-    border-radius: 20px;
-    font-size: 20px;
+    background-color: transparent;
+    font-size: 35px;
     color: white;
     text-shadow: 1px 1px 4px black, 0 0 25px green, 0 0 5px green;
     font-family: Purisa;
     cursor: pointer;
     border-inline-end-width: 4em;
+    text-align: center;
 }
 
 .bubbly-button:hover {
+    text-align: center;
+    color: white;
     background-color: transparent;
-    font-size: 40px;
-    left: 35%;
+    font-size: 25px;
     text-shadow: 1px 1px 4px black, 0 0 25px green, 0 0 5px green;
 }
 
@@ -84,7 +83,7 @@
     position: absolute;
     left: 2%;
     width: 50px;
-    top: 20%;
+    top: 12%;
 }
 
 #piscina {
@@ -109,12 +108,16 @@
     width: 400px;
 }
 
-#novedades {
-    position: absolute;
-    top: 5%;
-    left: 50%;
+.contenido {
+    height: 100vh;
+    background-image: url('../images/puente.jpg');
+    background-size: cover;
 }
 
-.noticiasTitu {
+.actividad {
+    height: 100vh;
+}
+
+.titulo {
     text-align: center;
 }
